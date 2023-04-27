@@ -3,10 +3,12 @@
 .navbar{
   display: flex;
   align-items: center;
-  height: 200px;
-  position: absolute;
+  // position: absolute;
   justify-content: center;
   width: 100%;
+  background-color: rgb(33, 32, 32)!important;
+  height: 40px;
+  
 }
 .navbar-nav{
   display: flex;
@@ -23,6 +25,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 550;
   font-size: 15px;
+
 }
 .navbar-brand{
   color: hsl(0, 0%, 100%);

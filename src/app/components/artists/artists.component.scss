@@ -1,7 +1,9 @@
 .entry-header{
     background-repeat: no-repeat;
-    background: url("https://preview.colorlib.com/theme/sunfest/images/next-event-2.jpg");
-    
+    background: url("https://preview.colorlib.com/theme/sunfest/images/footer-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 h2{
     text-align: center;
@@ -9,6 +11,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 500px;
     color: #00d0ff;
 }

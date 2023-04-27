@@ -8,10 +8,10 @@ div{
         display: block;
         font-family: 'Poppins', sans-serif;
         background: hsl(0, 0%, 100%);
-        // box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+        box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
         position: absolute;
-        top: 100px;
         left: 260px;
+        margin-top: 70px;
         .plus{
         position: absolute;
         left: 530px;
@@ -31,7 +31,8 @@ div{
         }
     }
     .img{
-    position: relative;
+    // position: relative;
+    margin: 20px;
     img{
         width: 360px;
         height: 416px;
