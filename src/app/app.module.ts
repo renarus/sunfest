@@ -12,7 +12,9 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ArtistsComponent } from './components/artists/artists.component'
+import { ArtistsComponent } from './components/artists/artists.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,9 @@ import { ArtistsComponent } from './components/artists/artists.component'
     SliderComponent,
     CardComponent,
     FooterComponent,
-    ArtistsComponent
+    ArtistsComponent,
+    LoginComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
