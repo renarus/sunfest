@@ -5,16 +5,15 @@
                 <div class="text-center">
                     <h1>Log in</h1>
                 </div>
-                <form>
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
                     <form>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <input formControllName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <input formControllName="password" type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <button type="submit" class="btn btn-primary">Log in</button>
                         <h6>Do you have not any account <a routerLink="/signup">Sign up</a> </h6>

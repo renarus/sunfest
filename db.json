@@ -1,54 +1,82 @@
 {
-  "texts": [{
-    "id": "1",
-    "img": "https://preview.colorlib.com/theme/sunfest/images/black-chick.jpg",
-    "name": "Jamila Williams",
-    "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
-    "plus":"https://preview.colorlib.com/theme/sunfest/images/box.jpg"
-  },
-  {
-    "id": "2",
-    "img": "https://preview.colorlib.com/theme/sunfest/images/mathew-kane.jpg",
-    "name": "Sandra Superstar",
-    "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
-    "plus":"https://preview.colorlib.com/theme/sunfest/images/box.jpg"
-  },
-  {
-    "id": "3",
-    "name": "DJ Crazyhead",
-    "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
-    "img":	"https://preview.colorlib.com/theme/sunfest/images/eric-ward.jpg",
-    "plus":"https://preview.colorlib.com/theme/sunfest/images/box.jpg"
-  }
-],
-"slider": [{
-  "id": "4",
-  "img": "https://preview.colorlib.com/theme/sunfest/images/next-event-3.jpg"
-},
-{
-  "id": "5",
-  "img": "https://preview.colorlib.com/theme/sunfest/images/next-event-2.jpg"
-},
-{
-  "id": "6",
-  "img":	"https://preview.colorlib.com/theme/sunfest/images/next-event-1.jpg"
-}
-],
-"card":[
-  {
-    "id": "7",
-    "header":"Our Last News",
-    "img":	"https://preview.colorlib.com/theme/sunfest/images/news-image-1.jpg",
-    "text":"Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
-    "title":"10 Festival Tips",
-    "date":"03.12.18"
-  },
-  {
-    "id": "8",
-    "img":	"https://preview.colorlib.com/theme/sunfest/images/news-image-1.jpg",
-    "text":"Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
-    "title":"New event calendar for this year",
-    "date":"03.12.18"
-  }
-]
+  "texts": [
+    {
+      "id": "1",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/black-chick.jpg",
+      "name": "Jamila Williams",
+      "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
+      "plus": "https://preview.colorlib.com/theme/sunfest/images/box.jpg"
+    },
+    {
+      "id": "2",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/mathew-kane.jpg",
+      "name": "Sandra Superstar",
+      "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
+      "plus": "https://preview.colorlib.com/theme/sunfest/images/box.jpg"
+    },
+    {
+      "id": "3",
+      "name": "DJ Crazyhead",
+      "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/eric-ward.jpg",
+      "plus": "https://preview.colorlib.com/theme/sunfest/images/box.jpg"
+    }
+  ],
+  "slider": [
+    {
+      "id": "4",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/next-event-3.jpg"
+    },
+    {
+      "id": "5",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/next-event-2.jpg"
+    },
+    {
+      "id": "6",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/next-event-1.jpg"
+    }
+  ],
+  "card": [
+    {
+      "id": "7",
+      "header": "Our Last News",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/news-image-1.jpg",
+      "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
+      "title": "10 Festival Tips",
+      "date": "03.12.18"
+    },
+    {
+      "id": "8",
+      "img": "https://preview.colorlib.com/theme/sunfest/images/news-image-1.jpg",
+      "text": "Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.",
+      "title": "New event calendar for this year",
+      "date": "03.12.18"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "",
+      "email": "renarustmova@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullName": "",
+      "email": "nezrni@gmail.com",
+      "password": "2345",
+      "id": 2
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ]
 }

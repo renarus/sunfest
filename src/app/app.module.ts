@@ -14,7 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ArtistsComponent } from './components/artists/artists.component';
 import { LoginComponent } from './components/login/login.component';
-import { SignUpComponent } from './components/sign-up/sign-up.component'
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,9 @@ import { SignUpComponent } from './components/sign-up/sign-up.component'
     HttpClientModule,
     AppRoutingModule,
     NgImageSliderModule,
-    FontAwesomeModule 
+    FontAwesomeModule ,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
